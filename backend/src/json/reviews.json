@@ -1,0 +1,42 @@
+[
+    {
+        "rating": 4,
+        "fullName": "Jake Smith",
+        "text": "good stuff",
+        "id": "23ca833c-5256-11ee-be56-0242ac120002"
+    },
+    {
+        "rating": 2,
+        "fullName": "Marcos Smith",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+        "rating": 3,
+        "fullName": "Mark Smith",
+        "text": "good stuff"
+    },
+    {
+        "rating": 4,
+        "fullName": "Steve Smith",
+        "text": "good stuff"
+    },
+    {
+        "rating": 1,
+        "fullName": "Nathan Smith"
+    },
+    {
+        "rating": 2,
+        "fullName": "John Smith",
+        "text": "terrible stuff"
+    },
+    {
+        "rating": 4,
+        "fullName": "William Smith",
+        "text": "good stuff"
+    },
+    {
+        "rating": 5,
+        "fullName": "Mike Smith",
+        "text": "good stuff"
+    }
+]

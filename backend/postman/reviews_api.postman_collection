@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "34f44b45-99bb-4007-a9e9-21c092821604",
+		"name": "test-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saveReview",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullName\": \"James John\",\r\n    \"text\": \"It was a lovely experience\",\r\n    \"rating\": 4\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/saveReview",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saveReview"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "putReview",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rating\": 1,\r\n    \"text\": \"It was terrible\",\r\n    \"id\":\"23ca833c-5256-11ee-be56-0242ac120002\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/updateReview",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"updateReview"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getReviews",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rating\": 3\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/getReviews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getReviews"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
