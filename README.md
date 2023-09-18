@@ -4,10 +4,12 @@ Use `git clone https://github.com/justinhoUBB/mero_technical_assignment.git` to 
 ## How to build & run the BE app:
 
 - After you've cloned the respository, run the following commands inside a terminal:
-- `cd mero_technical_assignment/backend`
-- `npm i`
-- `npm run build`
-- `npm run start`
+```
+cd mero_technical_assignment/backend
+npm i
+npm run build
+npm run start
+```
 
 - To run the unit tests use:
 `npm run test`
@@ -17,9 +19,11 @@ Use `git clone https://github.com/justinhoUBB/mero_technical_assignment.git` to 
 - Create a .env file inside the `frontend` folder using the .env.template file.
 - Replace the `<replace-me>` value with either your machine's ip if using Android or just `localhost` if using IOS.
 - While inside a terminal, run
-- `cd mero_technical_assignment/frontend`
-- `npm i`
-- `npm run start`
+```
+cd mero_technical_assignment/frontend
+npm i
+npm run start
+```
 
 ## Notes
 
